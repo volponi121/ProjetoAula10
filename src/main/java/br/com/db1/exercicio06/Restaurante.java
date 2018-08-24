@@ -1,6 +1,7 @@
 package br.com.db1.exercicio06;
 
 import java.util.Date;
+import java.util.List;
 
 public class Restaurante {
 	private String nome;
@@ -9,7 +10,7 @@ public class Restaurante {
 	private Boolean serveCafeDaManha;
 	private Endereco endereco;
 	private Pedido pedido;
-	private Telefone telefone;
+	private List<Telefone> telefone;
 	
 	
 	public void gerarRelatorioFaturamento(Date dataInicial,Date dataFinal){

@@ -1,8 +1,8 @@
 package br.com.db1.exercicio05;
 
-public class Barco {
+public class Barco extends TransporteAquatico {
 	private Boolean pesqueiro;
-	private TransporteAquatico transporte;
+	
 	
 	public Boolean isPesqueiro(){
 		return true;

@@ -1,8 +1,8 @@
 package br.com.db1.exercicio05;
 
-public class Canoa {
+public class Canoa extends TransporteAquatico {
 	
 	public String modalidade;
-	public TransporteAquatico transporte;
-	
+
+
 }
